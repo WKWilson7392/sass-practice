@@ -1,0 +1,56 @@
+$mainFont: Georgia, sans-serif
+
+.container
+    height: 500px
+    width: 500px
+    display: grid
+    grid-template-rows: 1fr 9fr 2fr
+    grid-template-columns: 4fr 8fr
+     
+    .header
+        background: blue
+        grid-row: 1 / 2
+        grid-column: 1 / 3
+    .sideBar
+        background: yellow
+        grid-row: 2 / 3
+        grid-column: 1 / 2
+    .content
+        
+        grid-row: 2 / 3
+        grid-column: 2 / 3
+        .contentContainer   
+            display: flex
+            flex-flow: row wrap
+            height: 375px
+            .card1
+                background: white
+            .card2
+                background: orange
+            .card3
+                background: black
+            .card4
+                background: blue
+            .card5
+                background: yellow
+            .card6
+                background: purple
+            .card7
+                background: green
+    .footer
+        background: orange
+        grid-row: 3 / 4
+        grid-column : 1 / 3
+        
+
+    
+
+        
+    
+         
+        
+            
+            
+        
+        
+            
